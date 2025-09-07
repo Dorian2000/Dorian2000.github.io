@@ -1,69 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Wilfried Adohinzin — About</title>
-<meta name="description" content="About — Wilfried Adohinzin" />
-<style>
-:root{
---text:#0f172a; /* slate-900 */
---muted:#475569; /* slate-600 */
---link:#b91c1c; /* red-700 */
---linkHover:#7f1d1d; /* red-900 */
---bg:#ffffff;
---border:#e2e8f0; /* slate-200 */
---maxw:820px;
-}
-html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}
-a{color:var(--link);text-decoration:none}
-a:hover{text-decoration:underline;color:var(--linkHover)}
-header{border-bottom:1px solid var(--border);}
-.wrap{max-width:var(--maxw);margin:0 auto;padding:1.25rem;}
-.brand{font-weight:700;font-size:1.15rem;color:var(--link)}
-nav{display:flex;gap:.9rem;align-items:center;flex-wrap:wrap}
-nav a{color:var(--link)}
-nav a:hover{color:var(--linkHover)}
-.row{display:flex;justify-content:space-between;align-items:center;gap:1rem}
-main{line-height:1.75}
-h1{font-size:2rem;margin:1.2rem 0 .5rem}
-h2{font-size:1.15rem;margin:2rem 0 .5rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
-p{margin:.6rem 0}
-ul{margin:.4rem 0 .8rem 1.2rem}
-footer{border-top:1px solid var(--border);margin-top:2rem;color:var(--muted);font-size:.95rem}
-.muted{color:var(--muted)}
-.caps{letter-spacing:.05em;text-transform:uppercase}
-.pill{display:inline-block;border:1px solid var(--border);padding:.25rem .55rem;border-radius:999px;font-size:.85rem;color:var(--link)}
-@media (max-width:640px){
-.row{flex-direction:column;align-items:flex-start}
-}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wilfried Adohinzin — Home</title>
+  <meta name="description" content="Home — Wilfried Adohinzin" />
+  <style>
+    :root{
+      --text:#0f172a;
+      --muted:#475569;
+      --link:#b91c1c;
+      --linkHover:#7f1d1d;
+      --bg:#ffffff;
+      --border:#e2e8f0;
+      --maxw:820px;
+    }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Helvetica Neue",Arial,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline;color:var(--linkHover)}
+    header{border-bottom:1px solid var(--border)}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:1.25rem}
+    .brand{font-weight:700;font-size:1.15rem;color:var(--link)}
+    nav{display:flex;gap:.9rem;align-items:center;flex-wrap:wrap}
+    nav a{color:var(--link)}
+    nav a:hover{color:var(--linkHover)}
+    .row{display:flex;justify-content:space-between;align-items:center;gap:1rem}
+    main{line-height:1.75}
+    h1{font-size:2rem;margin:1.2rem 0 .5rem}
+    h2{font-size:1.15rem;margin:2rem 0 .5rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+    p{margin:.6rem 0}
+    ul{margin:.4rem 0 .8rem 1.2rem}
+    footer{border-top:1px solid var(--border);margin-top:2rem;color:var(--muted);font-size:.95rem}
+    .muted{color:var(--muted)}
+    .pill{display:inline-block;border:1px solid var(--border);padding:.25rem .55rem;border-radius:999px;font-size:.85rem;color:var(--link)}
+    @media (max-width:640px){.row{flex-direction:column;align-items:flex-start}}
+  </style>
 </head>
 <body>
-<header>
-<div class="wrap row">
-<a class="brand" href="/">Wilfried Adohinzin</a>
-<nav aria-label="Primary">
-<a href="/about.html" aria-current="page">About</a>
-<a href="/cv.pdf">CV</a>
-<a href="/research.html">Research</a>
-<a href="/teaching.html">Teaching</a>
-<a href="/contact.html">Contact</a>
-</nav>
-</div>
-</header>
+  <header>
+    <div class="wrap row">
+      <a class="brand" href="/">Wilfried Adohinzin</a>
+      <nav aria-label="Primary">
+        <a href="/index.html" aria-current="page">Home</a>
+        <a href="/cv.pdf">CV</a>
+        <a href="/research.html">Research</a>
+        <a href="/teaching.html">Teaching</a>
+        <a href="/misc.html">Miscellaneous</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
+  <main class="wrap" role="main">
+    <h1>Welcome</h1>
+    <p>I'm <strong>Wilfried Adohinzin</strong>, a Ph.D. candidate in Economics at the University of Illinois, Urbana‑Champaign. My research focuses on development and labor economics, particularly how job security, tenure reforms, and institutional rules shape teacher retention, performance, and student learning.</p>
 
-<main class="wrap" role="main">
-<h1>About me</h1>
-<p>I'm a <strong>Ph.D. candidate in Economics</strong> at the University of Illinois, Urbana‑Champaign. Prior to joining UIUC, I received a Master's in Mathematics, Statistics, and Economics from the African School of Economics.</p>
+    <p>In my job market paper, I study the impacts of teacher tenure reforms in Peru that link permanent contracts to performance on exams. I show that job security improves teacher retention—especially for high‑quality teachers—and raises student learning, though effects are more limited for disadvantaged students.</p>
 
+    <p>My broader work explores immigration enforcement and housing markets, the long‑run labor market effects of childbirth, and how environmental shocks such as temperature affect classroom dynamics. I am passionate about policies that promote human capital and equal opportunities.</p>
 
-<p>My interests broadly lie in development and labor economics. In my job market paper, I study the implications of job protection and rule‑based tenure reforms for employee retention and student learning in Peru.</p>
+    <h2>News</h2>
+    <ul>
+      <li><span class="pill">2025</span> Dissertation on teacher tenure reforms nearing completion.</li>
+      <li><span class="pill">2025</span> New paper on immigration enforcement and rental markets.</li>
+      <li><span class="pill">2024</span> Paper on childbirth penalties in Europe.</li>
+    </ul>
+  </main>
 
+  <footer>
+    <div class="wrap">
+      <p>© <span id="y"></span> Wilfried Adohinzin · <a href="mailto:wda3@illinois.edu">wda3@illinois.edu</a></p>
+    </div>
+  </footer>
 
-<p>I originally hail from Benin, grew up in Cotonou, and have also lived in Lomé, Accra, and Ouagadougou. I am on the 2024–2025 Job Market.</p>
-
-
-<h2>Contact</h2>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
 </html>

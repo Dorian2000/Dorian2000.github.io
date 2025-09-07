@@ -1,80 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Wilfried Adohinzin — Home</title>
-<meta name="description" content="Home — Wilfried Adohinzin" />
-<style>
-:root{
---text:#0f172a;
---muted:#475569;
---link:#b91c1c;
---linkHover:#7f1d1d;
---bg:#ffffff;
---border:#e2e8f0;
---maxw:920px;
-}
-html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Helvetica Neue",Arial,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"}
-a{color:var(--link);text-decoration:none}
-a:hover{text-decoration:underline;color:var(--linkHover)}
-header{border-bottom:1px solid var(--border)}
-.wrap{max-width:var(--maxw);margin:0 auto;padding:1.25rem}
-.brand{font-weight:400;font-size:1.4rem;color:var(--link)}
-nav{display:flex;gap:1rem;align-items:center;flex-wrap:wrap}
-nav a{color:var(--link);font-weight:400}
-nav a:hover{color:var(--linkHover)}
-.row{display:flex;justify-content:space-between;align-items:center;gap:1rem}
-main{line-height:1.8}
-h2{font-weight:400;font-size:1.3rem;margin:1.8rem 0 .75rem;color:var(--muted)}
-p{margin:.6rem 0}
-ul{margin:.4rem 0 .8rem 1.2rem}
-footer{border-top:1px solid var(--border);margin-top:2rem;color:var(--muted);font-size:.95rem}
-.muted{color:var(--muted)}
-.pill{display:inline-block;border:1px solid var(--border);padding:.25rem .55rem;border-radius:999px;font-size:.85rem;color:var(--link)}
-.hero{display:flex;gap:2rem;align-items:center;flex-wrap:wrap;margin-bottom:2.5rem}
-.hero img{width:220px;height:220px;object-fit:cover;border-radius:999px;border:1px solid var(--border)}
-.hero .text{flex:1;min-width:250px}
-section{margin-bottom:2.5rem}
-.btn{display:inline-flex;gap:.45rem;align-items:center;border:1px solid var(--border);padding:.4rem .7rem;border-radius:.5rem}
-.btn:hover{border-color:var(--linkHover)}
-.icon{width:1rem;height:1rem;display:inline-block}
-@media (max-width:640px){
-.row{flex-direction:column;align-items:flex-start}
-.hero{flex-direction:column;align-items:flex-start}
-.hero img{width:180px;height:180px}
-}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wilfried Adohinzin — Home</title>
+  <meta name="description" content="Home — Wilfried Adohinzin" />
+  <style>
+    :root{
+      --text:#0f172a;
+      --muted:#475569;
+      --link:#b91c1c;
+      --linkHover:#7f1d1d;
+      --bg:#ffffff;
+      --border:#e2e8f0;
+      --maxw:920px;
+    }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Helvetica Neue",Arial,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline;color:var(--linkHover)}
+    header{border-bottom:1px solid var(--border)}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:1.25rem}
+    .brand{font-weight:400;font-size:1.4rem;color:var(--link)}
+    nav{display:flex;gap:1rem;align-items:center;flex-wrap:wrap}
+    nav a{color:var(--link);font-weight:400}
+    nav a:hover{color:var(--linkHover)}
+    .row{display:flex;justify-content:space-between;align-items:center;gap:1rem}
+    main{line-height:1.8}
+    h2{font-weight:400;font-size:1.3rem;margin:1.8rem 0 .75rem;color:var(--muted)}
+    p{margin:.6rem 0}
+    ul{margin:.4rem 0 .8rem 1.2rem}
+    footer{border-top:1px solid var(--border);margin-top:2rem;color:var(--muted);font-size:.95rem}
+    .muted{color:var(--muted)}
+    .pill{display:inline-block;border:1px solid var(--border);padding:.25rem .55rem;border-radius:999px;font-size:.85rem;color:var(--link)}
+    .hero{display:flex;gap:2rem;align-items:center;flex-wrap:wrap;margin-bottom:2.5rem}
+    .hero img{width:220px;height:220px;object-fit:cover;border-radius:999px;border:1px solid var(--border)}
+    .hero .text{flex:1;min-width:250px}
+    section{margin-bottom:2.5rem}
+    .btn{display:inline-flex;gap:.45rem;align-items:center;border:1px solid var(--border);padding:.4rem .7rem;border-radius:.5rem}
+    .btn:hover{border-color:var(--linkHover)}
+    .icon{width:1rem;height:1rem;display:inline-block}
+    @media (max-width:640px){
+      .row{flex-direction:column;align-items:flex-start}
+      .hero{flex-direction:column;align-items:flex-start}
+      .hero img{width:180px;height:180px}
+    }
+  </style>
 </head>
 <body>
-<header>
-<div class="wrap row">
-<a class="brand" href="/">Wilfried Adohinzin</a>
-<nav aria-label="Primary">
-<a href="/index.html" aria-current="page">Home</a>
-<a href="/cv.pdf">CV</a>
-<a href="/research.html">Research</a>
-<a href="/teaching.html">Teaching</a>
-<a href="/misc.html">Miscellaneous</a>
-</nav>
-</div>
-</header>
+  <header>
+    <div class="wrap row">
+      <a class="brand" href="/">Wilfried Adohinzin</a>
+      <nav aria-label="Primary">
+        <a href="/index.html" aria-current="page">Home</a>
+        <a href="/cv.pdf">CV</a>
+        <a href="/research.html">Research</a>
+        <a href="/teaching.html">Teaching</a>
+        <a href="/misc.html">Miscellaneous</a>
+      </nav>
+    </div>
+  </header>
 
+  <main class="wrap" role="main">
+    <section class="hero">
+      <img src="/headshot.jpg" alt="Portrait of Wilfried Adohinzin" />
+      <div class="text">
+        <p>I am an applied microeconomist with research interests in labor economics, development economics, and the economics of education. I earned a Ph.D. in Economics from the University of Illinois and I currently work as a Senior Associate in the <a href="https://www.crai.com/practices/labor-employment/">Labor & Employment</a> practice at <a href="https://www.crai.com/">Charles River Associates</a>. I originally hail from Benin, grew up in its most vibrant city, Cotonou, but also lived in various West African cities such as Lomé, Accra, and Ouagadougou.</p>
+      </div>
+    </section>
 
-<main class="wrap" role="main">
-<section class="hero">
-<img src="/headshot.jpg" alt="Portrait of Wilfried Adohinzin" />
-<div class="text">
-<p>I am an applied microeconomist with research interests in labor economics, development economics, and the economics of education. I earned a Ph.D. in Economics from the University of Illinois and I currently work as a Senior Associate in the <a href="https://www.crai.com/practices/labor-employment/">Labor & Employment</a> practice at <a href="https://www.crai.com/">Charles River Associates</a>. I originally hail from Benin, grew up in its most vibrant city, Cotonou, but also lived in various West African cities such as Lomé, Accra, and Ouagadougou.</p>
-</div>
-</section>
+    <section>
+      <h2>Curriculum Vitae</h2>
+      <p><a class="btn" href="/cv.pdf">Download CV (PDF)</a></p>
+    </section>
 
+    <section>
+      <h2>New Papers</h2>
+      <ul>
+        <li><span class="pill">2025</span> The Impacts of Job Security and Tenure Reforms on Teacher and Student Outcomes</li>
+        <li><span class="pill">2025</span> The Effects of Immigration Enforcement on the Rental Market: Evidence from the Secure Communities Program</li>
+        <li><span class="pill">2024</span> Pregnancy, Childbirth and Labor Market Outcomes: Evidence from Europe</li>
+        <li><span class="pill">2024</span> The Heat of the Moment: Temperature’s Role in Shaping Classroom Dynamics</li>
+      </ul>
+    </section>
 
-<section>
-<h2>Curriculum Vitae</h2>
-<p><a class="btn" href="/cv.pdf">Download CV (PDF)</a></p>
-</section>
+    <section>
+      <h2>Contact</h2>
+      <p>
+        <a class="btn" href="mailto:wda3@illinois.edu" aria-label="Email Wilfried">wda3@illinois.edu</a>
+      </p>
+      <p>
+        <a class="btn" href="https://www.linkedin.com/in/wilfried-adohinzin-a5638a55/" rel="me" aria-label="LinkedIn — Wilfried Adohinzin">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8h5v16H0zM8 8h4.8v2.2h.07c.67-1.27 2.3-2.6 4.73-2.6C21.4 7.6 24 10 24 14.3V24h-5v-8.3c0-2-0.04-4.6-2.8-4.6-2.8 0-3.23 2.2-3.23 4.5V24H8z"/></svg>
+          <span>LinkedIn</span>
+        </a>
+      </p>
+    </section>
+  </main>
 
+  <footer>
+    <div class="wrap">
+      <p>© <span id="y"></span> Wilfried Adohinzin · <a href="mailto:wda3@illinois.edu">wda3@illinois.edu</a></p>
+    </div>
+  </footer>
 
-<section>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
 </html>

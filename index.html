@@ -1,78 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Wilfried Adohinzin — Home</title>
-<meta name="description" content="Home — Wilfried Adohinzin" />
-<style>
-:root{
---text:#0f172a;
---muted:#475569;
---link:#b91c1c;
---linkHover:#7f1d1d;
---bg:#ffffff;
---border:#e2e8f0;
---maxw:860px;
-}
-html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Helvetica Neue",Arial,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"}
-a{color:var(--link);text-decoration:none}
-a:hover{text-decoration:underline;color:var(--linkHover)}
-header{border-bottom:1px solid var(--border)}
-.wrap{max-width:var(--maxw);margin:0 auto;padding:1.25rem}
-.brand{font-weight:400;font-size:1.25rem;color:var(--link)}
-nav{display:flex;gap:1rem;align-items:center;flex-wrap:wrap}
-nav a{color:var(--link);font-weight:400}
-nav a:hover{color:var(--linkHover)}
-.row{display:flex;justify-content:space-between;align-items:center;gap:1rem}
-main{line-height:1.8}
-h1,h2{font-weight:400;letter-spacing:0}
-h1{font-size:1.5rem;margin:1.2rem 0 .75rem}
-h2{font-size:1.2rem;margin:1.5rem 0 .5rem;color:var(--muted)}
-p{margin:.6rem 0}
-ul{margin:.4rem 0 .8rem 1.2rem}
-footer{border-top:1px solid var(--border);margin-top:2rem;color:var(--muted);font-size:.95rem}
-.muted{color:var(--muted)}
-.pill{display:inline-block;border:1px solid var(--border);padding:.25rem .55rem;border-radius:999px;font-size:.85rem;color:var(--link)}
-.hero{display:flex;gap:1.25rem;align-items:flex-start}
-.hero img{width:140px;height:140px;object-fit:cover;border-radius:999px;border:1px solid var(--border)}
-.hero .text{flex:1}
-.btn{display:inline-flex;gap:.45rem;align-items:center;border:1px solid var(--border);padding:.4rem .7rem;border-radius:.5rem}
-.btn:hover{border-color:var(--linkHover)}
-.icon{width:1rem;height:1rem;display:inline-block}
-@media (max-width:640px){
-.row{flex-direction:column;align-items:flex-start}
-.hero{flex-direction:column}
-.hero img{width:120px;height:120px}
-}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wilfried Adohinzin — Miscellaneous</title>
+  <meta name="description" content="Miscellaneous — Wilfried Adohinzin" />
+  <style>
+    :root{
+      --text:#0f172a; /* slate-900 */
+      --muted:#475569; /* slate-600 */
+      --link:#b91c1c; /* red-700 */
+      --linkHover:#7f1d1d; /* red-900 */
+      --bg:#ffffff;
+      --border:#e2e8f0; /* slate-200 */
+      --maxw:920px;
+    }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Helvetica Neue",Arial,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline;color:var(--linkHover)}
+    header{border-bottom:1px solid var(--border)}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:1.25rem}
+    .brand{font-weight:400;font-size:1.4rem;color:var(--link)}
+    nav{display:flex;gap:1rem;align-items:center;flex-wrap:wrap}
+    nav a{color:var(--link);font-weight:400}
+    nav a:hover{color:var(--linkHover)}
+    .row{display:flex;justify-content:space-between;align-items:center;gap:1rem}
+    main{line-height:1.8}
+    h1,h2{font-weight:400;letter-spacing:0}
+    h1{font-size:1.6rem;margin:1.2rem 0 .75rem}
+    h2{font-size:1.3rem;margin:1.8rem 0 .75rem;color:var(--muted)}
+    p{margin:.6rem 0}
+    ul{margin:.4rem 0 .8rem 1.2rem}
+    footer{border-top:1px solid var(--border);margin-top:2rem;color:var(--muted);font-size:.95rem}
+    .muted{color:var(--muted)}
+    .pill{display:inline-block;border:1px solid var(--border);padding:.25rem .55rem;border-radius:999px;font-size:.85rem;color:var(--link)}
+    section{margin-bottom:2.5rem}
+  </style>
 </head>
 <body>
-<header>
-<div class="wrap row">
-<a class="brand" href="/">Wilfried Adohinzin</a>
-<nav aria-label="Primary">
-<a href="/index.html" aria-current="page">Home</a>
-<a href="/cv.pdf">CV</a>
-<a href="/research.html">Research</a>
-<a href="/teaching.html">Teaching</a>
-<a href="/misc.html">Miscellaneous</a>
-</nav>
-</div>
-</header>
+  <header>
+    <div class="wrap row">
+      <a class="brand" href="/">Wilfried Adohinzin</a>
+      <nav aria-label="Primary">
+        <a href="/index.html">Home</a>
+        <a href="/cv.pdf">CV</a>
+        <a href="/research.html">Research</a>
+        <a href="/teaching.html">Teaching</a>
+        <a href="/misc.html" aria-current="page">Miscellaneous</a>
+      </nav>
+    </div>
+  </header>
 
+  <main class="wrap" role="main">
+    <h1>Miscellaneous</h1>
 
-<main class="wrap" role="main">
-<section class="hero">
-<img src="/headshot.jpg" alt="Portrait of Wilfried Adohinzin" />
-<div class="text">
-<h1>Home</h1>
-<h2>Short Bio</h2>
-<p>I am an applied microeconomist with research interests in labor economics, development economics, and the economics of education. I earned a Ph.D. in Economics from the University of Illinois and I currently work as a Senior Associate in the <a href="https://www.crai.com/practices/labor-employment/">Labor & Employment</a> practice at <a href="https://www.crai.com/">Charles River Associates</a>. I originally hail from Benin, grew up in its most vibrant city, Cotonou, but also lived in various West African cities such as Lomé, Accra, and Ouagadougou.</p>
-</div>
-</section>
+    <section>
+      <h2>Notes & Short Posts</h2>
+      <ul>
+        <li>Pay equity audit tips: modeling choices, bad controls, and practical diagnostics. (<a href="#">post</a>)</li>
+        <li>Event-study do-file patterns I reuse in Stata. (<a href="#">code</a>)</li>
+        <li>Teacher retention visualization templates (Stata graphs). (<a href="#">repo</a>)</li>
+      </ul>
+    </section>
 
+    <section>
+      <h2>Talks & Media</h2>
+      <ul>
+        <li>Seminar: Merit-based job security and teacher quality. (<a href="#">slides</a>)</li>
+        <li>Podcast: Immigration enforcement and rental markets. (<a href="#">audio</a>)</li>
+      </ul>
+    </section>
 
-<h2>Curriculum Vitae</h2>
-<p><a class="btn" href="/cv.pdf">Download CV (PDF)</a></p>
+    <section>
+      <h2>Teaching Resources</h2>
+      <ul>
+        <li>Syllabi & assignments (Econometrics; Development). (<a href="#">materials</a>)</li>
+        <li>Student guides: data cleaning checklists for applied micro. (<a href="#">PDF</a>)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Personal</h2>
+      <ul>
+        <li>Music: guitar & bass—recent favorites and practice routines. (<a href="#">notes</a>)</li>
+        <li>Trails & family day trips near College Station. (<a href="#">map</a>)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>© <span id="y"></span> Wilfried Adohinzin · <a href="mailto:wda3@illinois.edu">wda3@illinois.edu</a></p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
 </html>

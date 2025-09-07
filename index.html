@@ -13,7 +13,7 @@
       --linkHover:#7f1d1d;
       --bg:#ffffff;
       --border:#e2e8f0;
-      --maxw:920px;
+      --maxw:960px;
     }
     html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Helvetica Neue",Arial,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"}
     a{color:var(--link);text-decoration:none}
@@ -28,21 +28,22 @@
     main{line-height:1.8}
     h2{font-weight:400;font-size:1.3rem;margin:1.8rem 0 .75rem;color:var(--muted)}
     p{margin:.6rem 0}
-    ul{margin:.4rem 0 .8rem 1.2rem}
+    ul{margin:.4rem 0 .8rem 1.2rem;padding-left:1.2rem}
     footer{border-top:1px solid var(--border);margin-top:2rem;color:var(--muted);font-size:.95rem}
     .muted{color:var(--muted)}
     .pill{display:inline-block;border:1px solid var(--border);padding:.25rem .55rem;border-radius:999px;font-size:.85rem;color:var(--link)}
-    .hero{display:flex;gap:2rem;align-items:center;flex-wrap:wrap;margin-bottom:2.5rem}
-    .hero img{width:220px;height:220px;object-fit:cover;border-radius:999px;border:1px solid var(--border)}
-    .hero .text{flex:1;min-width:250px}
-    section{margin-bottom:2.5rem}
-    .btn{display:inline-flex;gap:.45rem;align-items:center;border:1px solid var(--border);padding:.4rem .7rem;border-radius:.5rem}
+    .hero{display:flex;gap:2rem;align-items:center;flex-wrap:wrap;margin-bottom:3rem}
+    .hero img{width:240px;height:240px;object-fit:cover;border-radius:999px;border:1px solid var(--border)}
+    .hero .text{flex:1;min-width:260px}
+    section{margin-bottom:3rem}
+    .btn{display:inline-flex;gap:.45rem;align-items:center;border:1px solid var(--border);padding:.5rem .9rem;border-radius:.5rem}
     .btn:hover{border-color:var(--linkHover)}
     .icon{width:1rem;height:1rem;display:inline-block}
-    @media (max-width:640px){
-      .row{flex-direction:column;align-items:flex-start}
+    .cv-section,.papers-section,.contact-section{padding-left:260px}
+    @media (max-width:800px){
+      .cv-section,.papers-section,.contact-section{padding-left:0}
       .hero{flex-direction:column;align-items:flex-start}
-      .hero img{width:180px;height:180px}
+      .hero img{width:200px;height:200px}
     }
   </style>
 </head>
@@ -68,12 +69,12 @@
       </div>
     </section>
 
-    <section>
+    <section class="cv-section">
       <h2>Curriculum Vitae</h2>
       <p><a class="btn" href="/cv.pdf">Download CV (PDF)</a></p>
     </section>
 
-    <section>
+    <section class="papers-section">
       <h2>New Papers</h2>
       <ul>
         <li><span class="pill">2025</span> The Impacts of Job Security and Tenure Reforms on Teacher and Student Outcomes</li>
@@ -83,7 +84,7 @@
       </ul>
     </section>
 
-    <section>
+    <section class="contact-section">
       <h2>Contact</h2>
       <p>
         <a class="btn" href="mailto:wda3@illinois.edu" aria-label="Email Wilfried">wda3@illinois.edu</a>

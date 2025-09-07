@@ -9,8 +9,8 @@
 :root{
 --text:#0f172a; /* slate-900 */
 --muted:#475569; /* slate-600 */
---link:#2563eb; /* blue-600 */
---linkHover:#1d4ed8; /* blue-700 */
+--link:#b91c1c; /* red-700 */
+--linkHover:#7f1d1d; /* red-900 */
 --bg:#ffffff;
 --border:#e2e8f0; /* slate-200 */
 --maxw:820px;
@@ -20,8 +20,10 @@ a{color:var(--link);text-decoration:none}
 a:hover{text-decoration:underline;color:var(--linkHover)}
 header{border-bottom:1px solid var(--border);}
 .wrap{max-width:var(--maxw);margin:0 auto;padding:1.25rem;}
-.brand{font-weight:700;font-size:1.15rem}
+.brand{font-weight:700;font-size:1.15rem;color:var(--link)}
 nav{display:flex;gap:.9rem;align-items:center;flex-wrap:wrap}
+nav a{color:var(--link)}
+nav a:hover{color:var(--linkHover)}
 .row{display:flex;justify-content:space-between;align-items:center;gap:1rem}
 main{line-height:1.75}
 h1{font-size:2rem;margin:1.2rem 0 .5rem}
@@ -31,7 +33,7 @@ ul{margin:.4rem 0 .8rem 1.2rem}
 footer{border-top:1px solid var(--border);margin-top:2rem;color:var(--muted);font-size:.95rem}
 .muted{color:var(--muted)}
 .caps{letter-spacing:.05em;text-transform:uppercase}
-.pill{display:inline-block;border:1px solid var(--border);padding:.25rem .55rem;border-radius:999px;font-size:.85rem;color:var(--muted)}
+.pill{display:inline-block;border:1px solid var(--border);padding:.25rem .55rem;border-radius:999px;font-size:.85rem;color:var(--link)}
 @media (max-width:640px){
 .row{flex-direction:column;align-items:flex-start}
 }
@@ -64,15 +66,4 @@ footer{border-top:1px solid var(--border);margin-top:2rem;color:var(--muted);fon
 
 
 <h2>Contact</h2>
-<p>214 David Kinley Hall<br>1407 West Gregory Drive<br>Urbana, IL 61801, USA<br>Email: <a href="mailto:wda3@illinois.edu">wda3@illinois.edu</a></p>
-</main>
-
-
-<footer>
-<div class="wrap">
-<p>© <span id="y"></span> Wilfried Adohinzin · <a href="mailto:wda3@illinois.edu">wda3@illinois.edu</a></p>
-</div>
-</footer>
-
-
 </html>

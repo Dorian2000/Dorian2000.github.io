@@ -10,20 +10,20 @@
     :root{
       --text:#0f172a;
       --muted:#475569;
-      --link:#0f172a;
-      --linkHover:#0f172a;
+      --link:#b91c1c;
+      --linkHover:#7f1d1d;
       --bg:#ffffff;
       --border:#e2e8f0;
       --maxw:960px;
     }
     html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Helvetica Neue",Arial,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"}
-    a{color:var(--link);text-decoration:none;border-bottom:1px solid var(--link)}
-    a:hover{text-decoration:none;border-bottom:2px solid var(--link)}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline;color:var(--linkHover)}
     header{border-bottom:1px solid var(--border)}
     .wrap{max-width:var(--maxw);margin:0 auto;padding:1.25rem}
-    .brand{font-weight:400;font-size:1.5rem;color:var(--link);font-family:'Lato',sans-serif}
+    .brand{font-weight:400;font-size:1.5rem;color:var(--link);font-family:'Lato',sans-serif;text-decoration:none;border:none}
     nav{display:flex;gap:1rem;align-items:center;flex-wrap:wrap}
-    nav a{color:var(--link);font-weight:400;border:none}
+    nav a{color:var(--link);font-weight:400}
     nav a:hover{color:var(--linkHover)}
     .row{display:flex;justify-content:space-between;align-items:center;gap:1rem}
     main{line-height:1.8}
@@ -31,12 +31,14 @@
     p{margin:.6rem 0}
     ul{margin:.4rem 0 .8rem 1.2rem;padding-left:1.2rem}
     footer{border-top:1px solid var(--border);margin-top:2rem;color:var(--muted);font-size:.95rem}
+    footer a{color:var(--muted);text-decoration:none;border:none}
     .muted{color:var(--muted)}
     .hero{display:flex;gap:2rem;align-items:center;flex-wrap:wrap;margin-bottom:3rem}
     .hero img{width:240px;height:240px;object-fit:cover;border-radius:999px;border:1px solid var(--border)}
     .hero .text{flex:1;min-width:260px}
     section{margin-bottom:3rem}
     .icon{width:1rem;height:1rem;display:inline-block}
+    .special-link{color:var(--text);text-decoration:underline}
     @media (max-width:800px){
       .hero{flex-direction:column;align-items:flex-start}
       .hero img{width:200px;height:200px}
@@ -61,7 +63,7 @@
     <section class="hero">
       <img src="/headshot.jpg" alt="Portrait of Wilfried Adohinzin" />
       <div class="text">
-        <p>I am an applied microeconomist with research interests in labor economics, development economics, and the economics of education. I earned a Ph.D. in Economics from the University of Illinois and I currently work as a Senior Associate in the <a href="https://www.crai.com/practices/labor-employment/">Labor & Employment</a> practice at <a href="https://www.crai.com/">Charles River Associates</a>. I originally hail from Benin, grew up in its most vibrant city, Cotonou, but also lived in various West African cities such as Lomé, Accra, and Ouagadougou.</p>
+        <p>I am an applied microeconomist with research interests in labor economics, development economics, and the economics of education. I earned a Ph.D. in Economics from the University of Illinois and I currently work as a Senior Associate in the <a class="special-link" href="https://www.crai.com/practices/labor-employment/">Labor & Employment</a> practice at <a class="special-link" href="https://www.crai.com/">Charles River Associates</a>. I originally hail from Benin, grew up in its most vibrant city, Cotonou, but also lived in various West African cities such as Lomé, Accra, and Ouagadougou.</p>
       </div>
     </section>
 
@@ -73,10 +75,10 @@
     <section>
       <h2>New Papers</h2>
       <ul>
-        <li>The Impacts of Job Security and Tenure Reforms on Teacher and Student Outcomes (with co-authors)</li>
-        <li>The Effects of Immigration Enforcement on the Rental Market: Evidence from the Secure Communities Program (with co-authors)</li>
-        <li>Pregnancy, Childbirth and Labor Market Outcomes: Evidence from Europe (with co-authors)</li>
-        <li>The Heat of the Moment: Temperature’s Role in Shaping Classroom Dynamics (with co-authors)</li>
+        <li>The Impacts of Job Security and Tenure Reforms on Teacher and Student Outcomes</li>
+        <li>The Effects of Immigration Enforcement on the Rental Market: Evidence from the Secure Communities Program</li>
+        <li>Pregnancy, Childbirth and Labor Market Outcomes: Evidence from Europe (with Allen Hardiman, Rebecca Thornton, and Theodoros Velentzas)</li>
+        <li>The Heat of the Moment: Temperature’s Role in Shaping Classroom Dynamics (with Alok Ranjan and Mahounan Yedomiffi)</li>
       </ul>
     </section>
 
